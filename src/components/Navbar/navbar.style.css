@@ -1,0 +1,38 @@
+.fa-bars {
+  font-size: 21px;
+}
+
+.sidenav {
+  height: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  overflow-x: hidden;
+  transition: 0.5s cubic-bezier(1, 0, 0, 1);
+  padding-top: 60px;
+  background: white;
+  width: 0;
+}
+.sidenav.outer {
+  background: rgba(0, 0, 0, 0.1);
+  transition: none;
+  overflow-x: hidden;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 20px;
+  font-size: 25px;
+  color: black;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+  .sidenav a {
+    font-size: 18px;
+  }
+}
