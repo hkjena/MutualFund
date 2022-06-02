@@ -1,2 +1,2 @@
-# MitualFund
+# MutualFund
 Created with CodeSandbox
